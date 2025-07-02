@@ -1,0 +1,87 @@
+ Nível 1: Iniciante
+1. Olá Mundo
+
+    GET /hello
+
+    Retorne: "Olá, mundo!"
+
+2. Retornar um usuário fixo
+
+    GET /usuario
+
+    Retorne um JSON com:
+
+    {
+      "nome": "João",
+      "idade": 25
+    }
+
+3. Receber um usuário e devolver o mesmo
+
+    POST /usuario
+
+    Receba um JSON:
+
+    {
+      "nome": "Ana",
+      "idade": 22
+    }
+
+    E retorne o mesmo objeto.
+
+🟡 Nível 2: Intermediário
+4. Listar vários usuários
+
+    GET /usuarios
+
+    Retorne uma lista de objetos Usuario simulados (em memória).
+
+5. Adicionar um usuário à lista
+
+    POST /usuarios
+
+    Receba um usuário via @RequestBody e adicione a uma List<Usuario> em memória.
+
+6. Buscar um usuário por ID
+
+    GET /usuarios/{id}
+
+    Retorne o usuário com o id correspondente. Se não existir, retorne 404.
+
+🟠 Nível 3: Avançado
+7. Deletar um usuário por ID
+
+    DELETE /usuarios/{id}
+
+    Remova o usuário da lista. Se não encontrar, retorne 404.
+
+8. Atualizar um usuário
+
+    PUT /usuarios/{id}
+
+    Atualize os dados de um usuário com base no id.
+
+🔴 Nível 4: Desafio extra (experiente)
+9. Filtrar usuários por idade mínima
+
+    GET /usuarios/idade?min=18
+
+    Retorne somente usuários com idade maior ou igual a 18.
+
+10. Autenticação simples
+
+    Crie um endpoint:
+
+        POST /login
+
+        Receba login e senha
+
+        Compare com valores fixos (admin / 1234)
+
+        Retorne "Login bem-sucedido" ou "Credenciais inválidas".
+
+🚀 Bônus: Integração com banco (opcional)
+
+    Use Spring Data JPA + H2 para persistir usuários.
+
+    Crie endpoints para salvar, listar e excluir do banco.

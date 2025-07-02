@@ -1,0 +1,14 @@
+desafio itau, guia do que fazer 
+// crie uma representação das trasações e retorne os valores da transação que são os valores e a data
+
+//Na classe da resposta da estatistica usar a biblioteca de double summary statistics
+
+
+// façã uma classe para solicitar as transações
+// obs: os campos de valor e de data e hora tem que ser obrigatorios
+// obs: o minimo de valores tem que ser 0 (usar anotações como : notnull e min)
+// fazer elas retornarem a data e os valores
+
+//cria uma fila para guardar as transações
+//adciciona as transações na fila de transações
+// retorna a data atual das estatisticas criadas na classe anterior

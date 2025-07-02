@@ -1,0 +1,18 @@
+
+
+ler as datas de entrada e saida e a partir dela verificar se passou de 12 horas ou não, se passar de 12 vou verificar a partir do valor por dia
+se não vou verificar a partir do valor por hora, independente do velor se é dia ou hora quanto o programa calcular esse valor, eu vou ter que
+acrescentar uma taxa de 15 ou 20%, se esse valor total passar de 100 eu coloco 20%, senão eu coloco 15% de taxa
+total será o valor retornado pelo calculo das datas + o valor da taxa
+
+ideia: programa vai se basear no calculo entre os dias
+
+-classe: terá 
+
+
+esquemaa implementação de jogadores:
+criar duas colunas na table ddo tabuleiro com nome de jogadores
+ex: jogador1 e jogador2
+
+no endpaint ja vai 
+
